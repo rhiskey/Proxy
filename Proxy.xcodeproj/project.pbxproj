@@ -16,6 +16,10 @@
 		5BF11DB827AA944E0052019C /* ProxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11DB727AA944E0052019C /* ProxyTests.swift */; };
 		5BF11DC227AA944E0052019C /* ProxyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11DC127AA944E0052019C /* ProxyUITests.swift */; };
 		5BF11DC427AA944E0052019C /* ProxyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11DC327AA944E0052019C /* ProxyUITestsLaunchTests.swift */; };
+		5BF11DD127AA979C0052019C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11DD027AA979C0052019C /* DetailViewController.swift */; };
+		5BF11DD327AA98940052019C /* LoadServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11DD227AA98940052019C /* LoadServiceProtocol.swift */; };
+		5BF11DD527AA98D30052019C /* LoadImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11DD427AA98D30052019C /* LoadImageService.swift */; };
+		5BF11DD827AA99760052019C /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11DD727AA99760052019C /* Proxy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		5BF11DBD27AA944E0052019C /* ProxyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF11DC127AA944E0052019C /* ProxyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyUITests.swift; sourceTree = "<group>"; };
 		5BF11DC327AA944E0052019C /* ProxyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BF11DD027AA979C0052019C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5BF11DD227AA98940052019C /* LoadServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadServiceProtocol.swift; sourceTree = "<group>"; };
+		5BF11DD427AA98D30052019C /* LoadImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImageService.swift; sourceTree = "<group>"; };
+		5BF11DD727AA99760052019C /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,11 @@
 				5BF11DA927AA944E0052019C /* Assets.xcassets */,
 				5BF11DAB27AA944E0052019C /* LaunchScreen.storyboard */,
 				5BF11DAE27AA944E0052019C /* Info.plist */,
+				5BF11DD027AA979C0052019C /* DetailViewController.swift */,
+				5BF11DD227AA98940052019C /* LoadServiceProtocol.swift */,
+				5BF11DD627AA99690052019C /* ServiceImage */,
+				5BF11DD427AA98D30052019C /* LoadImageService.swift */,
+				5BF11DD727AA99760052019C /* Proxy.swift */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -125,6 +138,13 @@
 				5BF11DC327AA944E0052019C /* ProxyUITestsLaunchTests.swift */,
 			);
 			path = ProxyUITests;
+			sourceTree = "<group>";
+		};
+		5BF11DD627AA99690052019C /* ServiceImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ServiceImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF11DD327AA98940052019C /* LoadServiceProtocol.swift in Sources */,
 				5BF11DA527AA944D0052019C /* ViewController.swift in Sources */,
 				5BF11DA127AA944D0052019C /* AppDelegate.swift in Sources */,
+				5BF11DD827AA99760052019C /* Proxy.swift in Sources */,
 				5BF11DA327AA944D0052019C /* SceneDelegate.swift in Sources */,
+				5BF11DD127AA979C0052019C /* DetailViewController.swift in Sources */,
+				5BF11DD527AA98D30052019C /* LoadImageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
